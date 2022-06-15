@@ -2,16 +2,16 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
-const Home: NextPage = () => {
+const SignIn: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center py-2">
+    <div className="flex min-h-screen flex-col items-center py-2 bg-funchsia">
       <Head>
-        <title>Create Next App</title>
+        <title>Tieldmoon - Signin</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-		s
+s
    </div>
   )
 }
 
-export default Home
+export default SignIn
